@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{0D8B1CF9-0BC5-4767-BE07-7FD6A56FF2BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FD467E4A-DBE7-4140-A838-F0970990A9AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Math", "Math", "{5195459B-5262-4C18-84AC-17622F96CD97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Math", "Math", "{9469E30A-4EC5-40DF-9F94-A9FA148DB777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathParser.Tests", "Tests\Math\MathParser.Tests\MathParser.Tests.csproj", "{DFA39D03-F5F1-4DE0-B5C9-6B71A81E92C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathParser", "Sources\Math\MathParser\MathParser.csproj", "{FDCB1D14-C531-457D-95BA-770F709B7BC6}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFA39D03-F5F1-4DE0-B5C9-6B71A81E92C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA39D03-F5F1-4DE0-B5C9-6B71A81E92C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA39D03-F5F1-4DE0-B5C9-6B71A81E92C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA39D03-F5F1-4DE0-B5C9-6B71A81E92C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCB1D14-C531-457D-95BA-770F709B7BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCB1D14-C531-457D-95BA-770F709B7BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCB1D14-C531-457D-95BA-770F709B7BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCB1D14-C531-457D-95BA-770F709B7BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5195459B-5262-4C18-84AC-17622F96CD97} = {0D8B1CF9-0BC5-4767-BE07-7FD6A56FF2BB}
+		{9469E30A-4EC5-40DF-9F94-A9FA148DB777} = {FD467E4A-DBE7-4140-A838-F0970990A9AC}
+		{FDCB1D14-C531-457D-95BA-770F709B7BC6} = {5195459B-5262-4C18-84AC-17622F96CD97}
+		{DFA39D03-F5F1-4DE0-B5C9-6B71A81E92C3} = {9469E30A-4EC5-40DF-9F94-A9FA148DB777}
+	EndGlobalSection
+EndGlobal

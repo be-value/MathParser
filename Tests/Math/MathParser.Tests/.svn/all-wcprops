@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/decideit_math/!svn/ver/51/DecideIt/Decerno/Tests/Math/MathParser.Tests
+END
+TokenizerTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/decideit_math/!svn/ver/51/DecideIt/Decerno/Tests/Math/MathParser.Tests/TokenizerTests.cs
+END
+packages.config
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/decideit_math/!svn/ver/10/DecideIt/Decerno/Tests/Math/MathParser.Tests/packages.config
+END
+OperatorTokenTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/decideit_math/!svn/ver/35/DecideIt/Decerno/Tests/Math/MathParser.Tests/OperatorTokenTests.cs
+END
+LexerTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/decideit_math/!svn/ver/51/DecideIt/Decerno/Tests/Math/MathParser.Tests/LexerTests.cs
+END
+MathParser.Tests.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/decideit_math/!svn/ver/50/DecideIt/Decerno/Tests/Math/MathParser.Tests/MathParser.Tests.csproj
+END
+ShuntingYardTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/decideit_math/!svn/ver/51/DecideIt/Decerno/Tests/Math/MathParser.Tests/ShuntingYardTests.cs
+END
+FunctionRepositoryTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/decideit_math/!svn/ver/48/DecideIt/Decerno/Tests/Math/MathParser.Tests/FunctionRepositoryTests.cs
+END
