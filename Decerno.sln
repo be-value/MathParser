@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{0D8B1CF9-0BC5-4767-BE07-7FD6A56FF2BB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FD467E4A-DBE7-4140-A838-F0970990A9AC}"
@@ -13,11 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathParser.Tests", "Tests\M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathParser", "Sources\Math\MathParser\MathParser.csproj", "{FDCB1D14-C531-457D-95BA-770F709B7BC6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05C346C6-558C-48F2-9B94-09B712CCBDFC}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -38,7 +41,14 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5195459B-5262-4C18-84AC-17622F96CD97} = {0D8B1CF9-0BC5-4767-BE07-7FD6A56FF2BB}
 		{9469E30A-4EC5-40DF-9F94-A9FA148DB777} = {FD467E4A-DBE7-4140-A838-F0970990A9AC}
-		{FDCB1D14-C531-457D-95BA-770F709B7BC6} = {5195459B-5262-4C18-84AC-17622F96CD97}
 		{DFA39D03-F5F1-4DE0-B5C9-6B71A81E92C3} = {9469E30A-4EC5-40DF-9F94-A9FA148DB777}
+		{FDCB1D14-C531-457D-95BA-770F709B7BC6} = {5195459B-5262-4C18-84AC-17622F96CD97}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DFE161F-E95C-4625-BC75-EE44A32D1D62}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal
