@@ -67,7 +67,7 @@ namespace MathParser.Tests
         /// <summary>
         /// Test if the Contains method returns true on an existing function
         /// </summary>
-        [Fact]
+        [Fact(DisplayName = "Contains For Existing Function Returns True", Skip = "Skipped")]
         public void ContainsForExistingFunctionReturnsTrue()
         {
             // Arrange
